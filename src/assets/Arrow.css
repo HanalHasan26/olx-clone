@@ -1,0 +1,11 @@
+svg:not(:root) {
+    overflow: hidden;
+
+}
+.rui-4K4Y7 {
+    fill: #002f34;
+}
+.arrow{
+    transform: rotate(180deg);
+}
+

@@ -1,0 +1,13 @@
+svg:not(:root) {
+    overflow: hidden;
+
+}
+.rui-4K4Y7 {
+    fill: #002f34;
+}
+.arrow{
+    transition: transform 1s;
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition-timing-function: linear;
+}

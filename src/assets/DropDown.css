@@ -1,0 +1,113 @@
+._2L_dh {
+    min-width: 100px;
+    position: relative;
+}
+._2PDEF {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    color: #002f34;
+}
+._2PDEF .UFSX5 {
+    display: flex;
+    align-items: center;
+}
+._2PDEF ._38j0w {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+._2pSU8 {
+    transform: rotate(180deg);
+}
+._2t8tU {
+    text-align: center;
+    transition: transform .5s;
+}
+.rui-1rYgw {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+._2dtTP {
+    position: absolute;
+    margin-top: 24px;
+    left: -24px;
+}
+._2Jv6i {
+    display: none;
+    column-count: 1;
+    width: 200px;
+    box-shadow: 0 4px 12px 1px rgb(0 0 0 / 50%);
+    border-radius: 4px;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 16px 16px 0;
+}
+._3FF3q {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    color: #002f34;
+}
+._1u-oA {
+    display: block;
+}
+._2dtTP ._2Jv6i:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -10px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -24px;
+    position: absolute;
+    width: 0;
+}
+._3Wfs8 ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+._3Wfs8 li {
+    cursor: pointer;
+    padding: 20px 0;
+}
+._3Wfs8 li span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #002f34;
+}
+._3Wfs8 li ._3K1Q5 {
+    float: right;
+}
+._3Wfs8 li ._3K1Q5 button {
+    height: 20px;
+}
+._3Wfs8 li {
+    cursor: pointer;
+    padding: 20px 0;
+}
+._3Wfs8 li span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #002f34;
+}
