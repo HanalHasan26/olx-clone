@@ -78,10 +78,14 @@ const handleSearchClick=()=>{
         }} className="brandName">
           <OlxLogo ></OlxLogo>
         </div>
-        <div className='productSearch'>
+        <div className='placeSearch1'>
           <Location/>
         </div>
-          <div className='placeSearch1'><SearchBar/></div>
+        <div>
+          <div className='productSearch'>
+            <SearchBar/>
+            </div>
+            </div>
           <div class="dropdown">
           <div>
           <Dropdown/>

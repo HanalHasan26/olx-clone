@@ -6,7 +6,6 @@ svg:not(:root) {
     fill: #002f34;
 }
 .arrow{
-    transition: transform 1s;
     transform: rotate(180deg);
     cursor: pointer;
     transition-timing-function: linear;

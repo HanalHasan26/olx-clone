@@ -1,8 +1,12 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import Edit from '../../assets/Edit'
 import UserTick from '../../assets/UserTick'
+import { AuthContext } from '../../Context/Context'
 import './User.css'
 function User() {
+
+    const {user} = useContext(AuthContext)
+
   return (
     <div className='parent'>
         
@@ -57,7 +61,7 @@ function User() {
 
             <div className='profile_name_edit'>
                 <div className='Name_profile'>
-                    <p className='Name_user_2'>Hanal Hassan</p>
+                    <p className='Name_user_2'>{user ? user.displayName : 'Login' }</p>
                     <div className="edit_b">
                     <div className='Edit_1'>
                     <p >Edit Profile</p>
