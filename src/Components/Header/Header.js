@@ -15,9 +15,10 @@ import Location from '../../assets/Location';
 function Header() {
   // const [select, setSelect] = useState('')
   const history = useHistory()
-  const {user} = useContext(AuthContext)
   const {firebase} = useContext(Context)
   const [products,setProducts] = useState([])
+  const {user} = useContext(AuthContext)
+
 
   useEffect(() => {
     firebase.firestore().collection('products').get().then((snapshot)=>{

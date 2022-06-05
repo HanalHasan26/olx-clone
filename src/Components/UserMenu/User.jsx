@@ -1,10 +1,11 @@
 import React,{useContext} from 'react'
+import { useHistory } from 'react-router-dom'
 import Edit from '../../assets/Edit'
 import UserTick from '../../assets/UserTick'
 import { AuthContext } from '../../Context/Context'
 import './User.css'
 function User() {
-
+    const history = useHistory()
     const {user} = useContext(AuthContext)
 
   return (
@@ -80,7 +81,9 @@ function User() {
                     If you want to post something
                     you can do it now</p>
                </div> 
-               <div className="selling_button"><p>Start selling</p></div>  
+               <div className="selling_button" onClick={()=>{
+                   history.push('/create')
+               }}><p>Start selling</p></div>  
             </div>
 
         </div>
